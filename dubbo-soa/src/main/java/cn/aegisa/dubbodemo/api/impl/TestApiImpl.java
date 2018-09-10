@@ -13,7 +13,7 @@ import java.time.format.DateTimeFormatter;
  *
  * @author XIANYINGDA at 8/27/2018 11:19 AM
  */
-@Service(interfaceClass = TestApi.class)
+@Service(interfaceClass = TestApi.class, version = "1.0", owner = "xyd")
 @Component
 @Slf4j
 public class TestApiImpl implements TestApi {
